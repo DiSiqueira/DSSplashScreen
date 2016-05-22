@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +12,7 @@ using Android.Widget;
 
 namespace SplashScreen
 {
-	[Activity(Label = "Splash!!!", Icon = "@mipmap/icon", Theme="@style/Theme.Splash", MainLauncher = true, NoHistory = true)]
+	[Activity(Label = "SplashActivity", Icon = "@mipmap/icon", Theme = "@style/Theme.Splash", MainLauncher = true, NoHistory = true)]
 	public class SplashActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
@@ -21,7 +20,7 @@ namespace SplashScreen
 			base.OnCreate (savedInstanceState);
 
 			System.Threading.Thread.Sleep(3000); //Aguarda 3 segundos
-			this.StartActivity(typeof(MainActivity));
+			this.StartActivity(typeof(MainActivity)); //Inicia próxima Activity 
 			// Create your application here
 		}
 	}
