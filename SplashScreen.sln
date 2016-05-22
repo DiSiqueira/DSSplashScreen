@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreen", "SplashScreen\SplashScreen.csproj", "{92926E1A-FF40-4BAA-94D4-AAD82B9A521F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreen.UITests", "SplashScreen.UITests\SplashScreen.UITests.csproj", "{74E9441E-B253-4F99-AFEA-710F51F033D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E9441E-B253-4F99-AFEA-710F51F033D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E9441E-B253-4F99-AFEA-710F51F033D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E9441E-B253-4F99-AFEA-710F51F033D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E9441E-B253-4F99-AFEA-710F51F033D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92926E1A-FF40-4BAA-94D4-AAD82B9A521F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92926E1A-FF40-4BAA-94D4-AAD82B9A521F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92926E1A-FF40-4BAA-94D4-AAD82B9A521F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92926E1A-FF40-4BAA-94D4-AAD82B9A521F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
