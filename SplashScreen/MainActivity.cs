@@ -4,7 +4,10 @@ using Android.OS;
 
 namespace SplashScreen
 {
-	[Activity (Label = "SplashScreen", MainLauncher = false, Icon = "@mipmap/icon")]
+	[Activity (
+		Label = "SplashScreen", 
+		MainLauncher = false, 
+		Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		int count = 1;
